@@ -801,7 +801,7 @@ export default function ScrollCanvas() {
             zIndex: 30,
           }}
         >
-          <SupporterBadge logo="/Bupa.jpeg" text="Clinical Reliability by Bupa" borderClass="hover:border-emerald-500/40" shadowClass="group-hover:shadow-[0_0_15px_rgba(16,185,129,0.4)]" />
+          <SupporterBadge logo="/Bupa.jpeg" text="Clinical Advisory" borderClass="hover:border-emerald-500/40" shadowClass="group-hover:shadow-[0_0_15px_rgba(16,185,129,0.4)]" />
         </div>
       )}
 
@@ -1409,7 +1409,7 @@ export default function ScrollCanvas() {
                       </svg>
                       <div className="absolute top-0 right-full mr-5 whitespace-nowrap text-right">
                         <p className="text-white font-black text-lg mb-1 leading-tight">
-                          Backing by <span className="text-cyan-400">Oakley Capital</span>
+                          Advisory by <span className="text-cyan-400">Oakley Capital</span>
                         </p>
                         <p className="text-white/60 text-sm font-medium">GTM strategy for neurological centers.</p>
                       </div>
@@ -1482,7 +1482,7 @@ export default function ScrollCanvas() {
                 <svg className="w-5 h-5 text-cyan-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" />
                 </svg>
-                <p className="text-cyan-400 text-xs tracking-[0.25em] uppercase font-bold">Engineering & Technology</p>
+                <p className="text-cyan-400 text-xs tracking-[0.25em] uppercase font-bold">Engineering & Product</p>
               </div>
               <div className="h-px bg-cyan-400/40 mb-6" />
 
@@ -1500,8 +1500,7 @@ export default function ScrollCanvas() {
                         <img src="/mateo.jpeg" alt="Mateo" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                       </div>
                     </div>
-                    <p className="text-cyan-500/80 text-sm tracking-widest uppercase font-bold mb-3">Software Engineering Lead</p>
-                    <p className="text-white/60 text-base leading-relaxed">Builds the core platform, clinician dashboard, and scalable software infrastructure.</p>
+                    <p className="text-cyan-500/80 text-sm tracking-widest uppercase font-bold">MVP Engineering Lead</p>
                   </div>
                 </div>
 
@@ -1518,8 +1517,7 @@ export default function ScrollCanvas() {
                         <img src="/fotoLuis.jpg" alt="Luis" className="w-full h-full object-cover object-[center_35%] group-hover:scale-105 transition-transform duration-500" />
                       </div>
                     </div>
-                    <p className="text-cyan-500/80 text-sm tracking-widest uppercase font-bold mb-3">Product & UX Lead</p>
-                    <p className="text-white/60 text-base leading-relaxed">Turns technical features into intuitive workflows for patients and clinicians.</p>
+                    <p className="text-cyan-500/80 text-sm tracking-widest uppercase font-bold">Product & Strategy Lead</p>
                   </div>
                 </div>
               </div>
@@ -1530,7 +1528,7 @@ export default function ScrollCanvas() {
                 <svg className="w-5 h-5 text-amber-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path d="M18 20V10M12 20V4M6 20v-6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <p className="text-amber-400 text-xs tracking-[0.25em] uppercase font-bold">Data Science & Business</p>
+                <p className="text-amber-400 text-xs tracking-[0.25em] uppercase font-bold">Software & Venture</p>
               </div>
               <div className="h-px bg-amber-400/40 mb-6" />
 
@@ -1548,8 +1546,7 @@ export default function ScrollCanvas() {
                         <img src="/marco.png" alt="Marco" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                       </div>
                     </div>
-                    <p className="text-amber-500/80 text-sm tracking-widest uppercase font-bold mb-3">Data Analytics & Business Strategy</p>
-                    <p className="text-white/60 text-base leading-relaxed">Connects recovery metrics, market strategy, pricing, and business model development.</p>
+                    <p className="text-amber-500/80 text-sm tracking-widest uppercase font-bold">MVP Engineering Lead</p>
                   </div>
                 </div>
 
@@ -1566,8 +1563,7 @@ export default function ScrollCanvas() {
                         <img src="/varo.jpeg" alt="Álvaro" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                       </div>
                     </div>
-                    <p className="text-amber-500/80 text-sm tracking-widest uppercase font-bold mb-3">AI/ML Lead</p>
-                    <p className="text-white/60 text-base leading-relaxed">Develops the computer vision and machine learning systems behind movement analysis.</p>
+                    <p className="text-amber-500/80 text-sm tracking-widest uppercase font-bold">Strategy & Ventures Lead</p>
                   </div>
                 </div>
               </div>
@@ -1597,8 +1593,7 @@ export default function ScrollCanvas() {
                         <img src="/helene.png" alt="Helene" className="w-full h-full object-cover object-[center_35%] scale-115 group-hover:scale-120 transition-transform duration-500" />
                       </div>
                     </div>
-                    <p className="text-emerald-500/80 text-sm tracking-widest uppercase font-bold mb-3">Team Lead & Clinical Translation</p>
-                    <p className="text-white/60 text-base leading-relaxed">Focus on clinical needs, rehabilitation workflows, and patient-centered validation.</p>
+                    <p className="text-emerald-500/80 text-sm tracking-widest uppercase font-bold">Clinical & Biomedical Translation Lead</p>
                   </div>
                 </div>
 
@@ -1615,8 +1610,7 @@ export default function ScrollCanvas() {
                         <img src="/jose.jpeg" alt="José Antonio" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                       </div>
                     </div>
-                    <p className="text-emerald-500/80 text-sm tracking-widest uppercase font-bold mb-3">Medical Advisor</p>
-                    <p className="text-white/60 text-base leading-relaxed">Provides clinical guidance, medical relevance, and real-world healthcare validation.</p>
+                    <p className="text-emerald-500/80 text-sm tracking-widest uppercase font-bold">Senior Clinical Advisor</p>
                   </div>
                 </div>
               </div>
@@ -1641,7 +1635,7 @@ export default function ScrollCanvas() {
                   <img src="/Bupa.jpeg" alt="Bupa" className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300" />
                 </div>
                 <h4 className="text-white font-semibold text-lg md:text-xl text-center mb-3">Bupa</h4>
-                <span className="inline-block mt-1 px-5 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-sm md:text-base text-emerald-400 font-extrabold tracking-widest uppercase shadow-[0_0_15px_rgba(16,185,129,0.15)] group-hover:bg-emerald-500/20 transition-colors">Clinical Support</span>
+                <span className="inline-block mt-1 px-5 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-sm md:text-base text-emerald-400 font-extrabold tracking-widest uppercase shadow-[0_0_15px_rgba(16,185,129,0.15)] group-hover:bg-emerald-500/20 transition-colors">Clinical Advisory</span>
               </div>
 
               {/* Harvard */}
@@ -1684,7 +1678,7 @@ export default function ScrollCanvas() {
                   </div>
                 </div>
                 <h4 className="text-white font-semibold text-lg md:text-xl text-center mb-3">Oakley Capital</h4>
-                <span className="inline-block mt-1 px-5 py-2 rounded-full bg-orange-500/10 border border-orange-500/30 text-sm md:text-base text-orange-500 font-extrabold tracking-widest uppercase shadow-[0_0_15px_rgba(249,115,22,0.15)] group-hover:bg-orange-500/20 transition-colors">Funding & Strategy</span>
+                <span className="inline-block mt-1 px-5 py-2 rounded-full bg-orange-500/10 border border-orange-500/30 text-sm md:text-base text-orange-500 font-extrabold tracking-widest uppercase shadow-[0_0_15px_rgba(249,115,22,0.15)] group-hover:bg-orange-500/20 transition-colors">Funding Advisory</span>
               </div>
             </div>
 
@@ -1695,7 +1689,7 @@ export default function ScrollCanvas() {
         <div ref={(el) => { revealRefs.current[5] = el; }} className="reveal w-full max-w-[85rem] px-6 py-32 text-center border-b border-white/5 relative mx-auto">
           {/* Oakley Capital Badge */}
           <div className="absolute top-10 right-10 z-50">
-            <SupporterBadge logo="/oakley.png" text="Funding Strategy by Oakley Capital" borderClass="border-orange-500/20 hover:border-orange-500/40" shadowClass="group-hover:shadow-[0_0_15px_rgba(249,115,22,0.4)]" />
+            <SupporterBadge logo="/oakley.png" text="Funding Advisory" borderClass="border-orange-500/20 hover:border-orange-500/40" shadowClass="group-hover:shadow-[0_0_15px_rgba(249,115,22,0.4)]" />
           </div>
 
           {/* Tech Background Pattern */}
@@ -1709,10 +1703,10 @@ export default function ScrollCanvas() {
           </div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white mb-6 relative z-10 leading-tight">
-            We are raising <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]">$400,000</span>
+            We are raising <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]">$275,000</span>
           </h2>
           <p className="text-cyan-50/70 text-xl md:text-2xl mb-16 max-w-3xl mx-auto relative z-10 font-medium">
-            via SAFE at a $4M Cap to validate our technology and secure early adoption.
+            via SAFE or convertible instrument to move from a working MVP to a secure, clinically pilot-ready product and generate seed-ready evidence.
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 xl:gap-8 relative z-10 w-full text-left">
@@ -1725,13 +1719,16 @@ export default function ScrollCanvas() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                   </svg>
                 </div>
-                <h3 className="text-white/60 text-sm font-bold tracking-[0.2em] uppercase mb-4">INSTRUMENT</h3>
-                <div className="text-4xl xl:text-5xl font-extrabold text-white mb-2 tracking-tighter">SAFE <span className="text-2xl xl:text-3xl text-white/50 font-medium tracking-normal">Note</span></div>
+                <h3 className="text-white/60 text-sm font-bold tracking-[0.2em] uppercase mb-6">INSTRUMENT</h3>
+                <div className="text-3xl xl:text-4xl font-extrabold text-white mb-6 tracking-tight leading-tight">SAFE / Convertible</div>
 
-                <div className="w-full h-px bg-white/10 my-6"></div>
+                <p className="text-white/60 text-sm leading-relaxed mb-6">
+                  Final investor ownership will depend on valuation cap, discount, conversion mechanics, and the next priced round.
+                </p>
 
-                <h3 className="text-white/60 text-sm font-bold tracking-[0.2em] uppercase mb-4">VALUATION CAP</h3>
-                <div className="text-4xl xl:text-5xl font-extrabold text-cyan-400 tracking-tighter drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">$4M</div>
+                <div className="text-cyan-400/70 text-xs tracking-wide">
+                  Planning range: $250k-$300k
+                </div>
               </div>
             </div>
 
@@ -1742,40 +1739,57 @@ export default function ScrollCanvas() {
                 USE OF FUNDS
               </h3>
 
-              <div className="relative flex flex-col gap-6 pl-6">
+              <div className="relative flex flex-col gap-5 pl-6">
                 {/* Vertical Path Line */}
                 <div className="absolute left-0 top-2 bottom-2 w-[2px] bg-linear-to-b from-cyan-400 via-cyan-500/50 to-cyan-800/20 rounded-full"></div>
 
-                {/* $80K Engineering */}
+                {/* $75K Legal, GDPR & Regulatory */}
                 <div className="relative">
                   <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
-                  <h4 className="text-cyan-400 text-xl font-bold mb-1 tracking-tight">$80,000</h4>
-                  <p className="text-white font-semibold text-sm mb-1">Engineering</p>
-                  <p className="text-white/50 text-xs leading-relaxed">Tooling, infrastructure, and specific technical contracts.</p>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$75,000</h4>
+                  <p className="text-white font-semibold text-sm">Legal, GDPR & Regulatory</p>
                 </div>
 
-                {/* $120K Clinical */}
+                {/* $40K Product, Cloud & Security */}
                 <div className="relative">
-                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300 delay-75"></div>
-                  <h4 className="text-cyan-400 text-xl font-bold mb-1 tracking-tight">$120,000</h4>
-                  <p className="text-white font-semibold text-sm mb-1">Clinical Validation</p>
-                  <p className="text-white/50 text-xs leading-relaxed">10 real post-stroke patients & Fugl-Meyer biomarker correlation.</p>
+                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$40,000</h4>
+                  <p className="text-white font-semibold text-sm">Product, Cloud & Security</p>
                 </div>
 
-                {/* $67K Legal & Reg */}
+                {/* $45K Clinical Pilot */}
                 <div className="relative">
-                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300 delay-150"></div>
-                  <h4 className="text-cyan-400 text-xl font-bold mb-1 tracking-tight">$67,000</h4>
-                  <p className="text-white font-semibold text-sm mb-1">Legal & Regulatory</p>
-                  <p className="text-white/50 text-xs leading-relaxed">Prep for FDA SaMD pre-assessment.</p>
+                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$45,000</h4>
+                  <p className="text-white font-semibold text-sm">Clinical Pilot</p>
                 </div>
 
-                {/* $133K Ops */}
+                {/* $30K Founder Stipends */}
                 <div className="relative">
-                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300 delay-200"></div>
-                  <h4 className="text-cyan-400 text-xl font-bold mb-1 tracking-tight">$133,000</h4>
-                  <p className="text-white font-semibold text-sm mb-1">Operations</p>
-                  <p className="text-white/50 text-xs leading-relaxed">General operations and infrastructure.</p>
+                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$30,000</h4>
+                  <p className="text-white font-semibold text-sm">Founder Stipends</p>
+                </div>
+
+                {/* $40K Operations, Tools & Strategic Travel */}
+                <div className="relative">
+                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$40,000</h4>
+                  <p className="text-white font-semibold text-sm">Operations, Tools & Strategic Travel</p>
+                </div>
+
+                {/* $8K Marketing, Demo & Content */}
+                <div className="relative">
+                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$8,000</h4>
+                  <p className="text-white font-semibold text-sm">Marketing, Demo & Content</p>
+                </div>
+
+                {/* $37K Contingency */}
+                <div className="relative">
+                  <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-[#0a0a0a] border-2 border-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] group-hover:bg-cyan-400/20 transition-colors duration-300"></div>
+                  <h4 className="text-cyan-400 text-xl font-bold tracking-tight">$37,000</h4>
+                  <p className="text-white font-semibold text-sm">Contingency</p>
                 </div>
               </div>
             </div>
@@ -1784,18 +1798,18 @@ export default function ScrollCanvas() {
             <div className="bg-[#0a0a0a] border border-white/10 rounded-[32px] p-8 xl:p-10 relative overflow-hidden group hover:border-cyan-500/30 transition-colors duration-500 shadow-2xl h-full flex flex-col justify-center">
               <h3 className="text-cyan-400 text-sm font-bold tracking-[0.2em] uppercase mb-8 flex items-center gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)]"></div>
-                OBJECTIVES (12-18 MO)
+                OBJECTIVES, 12 MO
               </h3>
 
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-8">
                 {/* Milestone 1 */}
                 <div className="flex gap-4 items-start">
                   <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-cyan-400 font-bold text-base group-hover:border-cyan-500/30 transition-colors">
                     1
                   </div>
                   <div>
-                    <h4 className="text-white text-lg font-bold mb-1 leading-tight">10-Patient Pilot</h4>
-                    <p className="text-white/60 text-xs leading-relaxed">Execute a clinical pilot with 10 post-stroke patients to gather real-world usage data and adherence metrics.</p>
+                    <h4 className="text-white text-lg font-bold mb-1.5 leading-tight">Launch Pilot</h4>
+                    <p className="text-white/50 text-xs leading-relaxed">~3 clinics, ~20 post-stroke patients.</p>
                   </div>
                 </div>
 
@@ -1805,8 +1819,8 @@ export default function ScrollCanvas() {
                     2
                   </div>
                   <div>
-                    <h4 className="text-white text-lg font-bold mb-1 leading-tight">Validate 14 Digital Metrics</h4>
-                    <p className="text-white/60 text-xs leading-relaxed">Establish the clinical reliability of our core kinematic and functional metrics against gold standards.</p>
+                    <h4 className="text-white text-lg font-bold mb-1.5 leading-tight">Validate Clinical Usefulness</h4>
+                    <p className="text-white/50 text-xs leading-relaxed">Adherence, usable data, clinician usefulness, workflow fit.</p>
                   </div>
                 </div>
 
@@ -1816,10 +1830,17 @@ export default function ScrollCanvas() {
                     3
                   </div>
                   <div>
-                    <h4 className="text-white text-lg font-bold mb-1 leading-tight">Close First LOI</h4>
-                    <p className="text-white/60 text-xs leading-relaxed">Secure the first formal commercial commitment (Letter of Intent) from a clinical institution.</p>
+                    <h4 className="text-white text-lg font-bold mb-1.5 leading-tight">Prepare Seed Round</h4>
+                    <p className="text-white/50 text-xs leading-relaxed">Seed-ready evidence, pricing feedback, regulatory clarity, continuation signals.</p>
                   </div>
                 </div>
+              </div>
+
+              {/* Bottom Tagline */}
+              <div className="mt-10 pt-6 border-t border-white/10">
+                <p className="text-cyan-400/60 text-xs italic text-center leading-snug">
+                  Pre-seed is for validation. Seed is for scale.
+                </p>
               </div>
             </div>
 
@@ -1841,7 +1862,7 @@ export default function ScrollCanvas() {
             Not diagnosis. No wearables.
           </p>
           <a
-            href="https://youtu.be/4O9YZqS7AJs"
+            href="https://youtu.be/WgE6esrREjI"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-black px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-[0_0_40px_rgba(255,255,255,0.15)]"
