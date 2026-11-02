@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FixedGap landing page
 
-## Getting Started
+Scroll-driven landing page for FixedGap (the project started under the name SteadyArc, hence the repo name): a software-only way to monitor stroke recovery between clinical visits.
 
-First, run the development server:
+## What it is
+
+FixedGap came out of a startup bootcamp the team went through together. The pitch: post-stroke patients see their clinician rarely, and decisions in between rely on what the patient remembers. The original idea was a smart glove; it was later simplified into pure software, where a phone or tablet camera tracks hand movement, gaze and voice while the patient plays a short game at home, and the clinician gets a dashboard with objective data from each session.
+
+This repo is the one-page site built to tell that story to clinicians, partners and investors. It covers the problem, the product, the team, supporters (Bupa, Harvard RCC, AWS, Saturno Labs, Oakley Capital), the fundraising ask and next steps, and links to a demo video.
+
+## How it works
+
+- The whole page is a single `ScrollCanvas` component. A 1164-frame image sequence in `public/frames/` is drawn onto a `<canvas>`, and the frame index follows scroll position, so the page behaves like a scrubbable video.
+- Text sections fade in and out at fixed frame ranges defined in `app/ScrollCanvas.tsx`.
+- `ClinicalDashboard.tsx` and `NeuralDashboard.tsx` are mock dashboards (Recharts) overlaid on top of the canvas at certain frames to show what the clinician side looks like.
+- Later sections (team, supporters, fundraising, roadmap) are regular HTML revealed with an IntersectionObserver.
+- Frames are preloaded before the page becomes interactive, so the first load is heavy (around 350 MB of JPEGs). That is a known trade-off of the approach, not a bug.
+
+## Stack
+
+Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, Recharts.
+
+## Run it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm ci
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For development use `npm run dev` and open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+  page.tsx               renders ScrollCanvas
+  ScrollCanvas.tsx       the whole landing page: canvas, sections, team, supporters, ask
+  ClinicalDashboard.tsx  mock clinician dashboard overlay
+  NeuralDashboard.tsx    mock hand/gaze/voice tracking overlay
+  layout.tsx, globals.css
+public/
+  frames/                image sequence driven by scroll
+  *.png, *.jpeg          team photos, supporter logos, prototype photos
+```
 
-## Learn More
+## Team
 
-To learn more about Next.js, take a look at the following resources:
+Luis Molina Salvador, Mateo Perez, alvarog-prog, marcusen78-sketch.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Demo video: https://youtu.be/WgE6esrREjI
